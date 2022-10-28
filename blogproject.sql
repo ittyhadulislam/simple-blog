@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 26, 2022 at 10:59 AM
+-- Generation Time: Oct 28, 2022 at 02:30 PM
 -- Server version: 10.1.29-MariaDB
 -- PHP Version: 7.1.12
 
@@ -89,7 +89,8 @@ CREATE TABLE `posts` (
 --
 
 INSERT INTO `posts` (`post_id`, `post_title`, `post_content`, `post_img`, `post_category`, `post_author`, `post_date`, `post_comment_count`, `post_summery`, `post_tag`, `post_status`) VALUES
-(4, 'demo post', 'Note: The INNER JOIN keyword selects all rows from both tables as long as there is a match between the columns. If there are records in the \"Orders\" table that do not have matches in \"Customers\", these orders will not be shown!', '260719318_103492275520773_6326921309116485666_n.jpg', 2, 'Admin', '2022-09-29', 3, 'Note: The INNER JOIN keyword selects all rows from both tables as long as there is a match between the columns. If there are records in the \"Orders\" table that do not have matches in \"Customers\", thes', 'sports', 1);
+(4, 'demo post', 'Note: The INNER JOIN keyword selects all rows from both tables as long as there is a match between the columns. If there are records in the \"Orders\" table that do not have matches in \"Customers\", these orders will not be shown!', '260719318_103492275520773_6326921309116485666_n.jpg', 4, 'Admin', '2022-09-29', 3, 'Note: The INNER JOIN keyword selects all rows from both tables as long as there is a match between the columns. If there are records in the \"Orders\" table that do not have matches in \"Customers\", thes', 'sports', 1),
+(5, 'This is the post', 'à¦¦à¦¾à¦°à§à¦¨ à¦†à¦‡à¦Ÿà¦¿à¦° à¦¸à¦•à¦² à¦«à§à¦°à¦¿ à¦•à§‹à¦°à§à¦¸ à¦ªà¦¾à¦“à§Ÿà¦¾à¦° à¦œà¦¨à§à¦¯ à¦à¦¬à¦‚ à¦à¦‡ à¦­à¦¿à¦¡à¦¿à¦“ à¦¸à¦®à§à¦ªà¦°à§à¦•à¦¿à¦¤ à¦¯à§‡ à¦•à§‹à¦¨ à¦¸à¦®à¦¸à§à¦¯à¦¾à¦° à¦¸à¦®à¦¾à¦§à¦¾à¦¨ à¦¬à¦¾ à¦ªà§à¦°à¦¶à§à¦¨à§‡à¦° à¦‰à¦¤à§à¦¤à¦° à¦ªà¦¾à¦“à§Ÿà¦¾à¦° à¦œà¦¨à§à¦¯ à¦à¦‡ à¦—à§à¦°à§à¦ªà§‡ à¦¯à§à¦•à§à¦¤ à¦¹à¦¨à¥¤', 'Screenshot (11).png', 4, 'Admin', '2022-10-28', 3, 'à¦¦à¦¾à¦°à§à¦¨ à¦†à¦‡à¦Ÿà¦¿à¦° à¦¸à¦•à¦² à¦«à§à¦°à¦¿ à¦•à§‹à¦°à§à¦¸ à¦ªà¦¾à¦“à§Ÿà¦¾à¦° à¦œà¦¨à§à¦¯ à¦à¦¬à¦‚ à¦à¦‡ à¦­à¦¿à¦¡à¦¿à¦“ à¦¸à¦®à§à¦ªà¦°à§à¦•à¦¿à¦¤ à¦¯à§‡ à¦•à§‹à¦¨ à¦¸à¦®à¦¸à§à¦¯à¦¾à', 'programming', 1);
 
 -- --------------------------------------------------------
 
@@ -163,7 +164,7 @@ ALTER TABLE `categories`
 -- AUTO_INCREMENT for table `posts`
 --
 ALTER TABLE `posts`
-  MODIFY `post_id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `post_id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
