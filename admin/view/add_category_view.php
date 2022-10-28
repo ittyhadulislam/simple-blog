@@ -1,4 +1,20 @@
+<?php
+
+if (isset($_POST["category_submit"])) {
+    $return_category_message = $objadminblog->add_category($_POST);
+}
+?>
+
+
+
 <div class="container my-4 p-4">
+    <p align="center">
+        <?php
+        if (isset($return_category_message)) {
+            echo $return_category_message;
+        }
+        ?>
+    </p>
     <h1>Add Category</h1>
 
     <form action="" method="post">
